@@ -6,7 +6,6 @@ vscode:
 tasks:
   - command: >
         gem install rails &&
-        cd hello-app &&
         bundle install &&
         yarn install --check-files &&
         rails server
